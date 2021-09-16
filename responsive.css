@@ -1,0 +1,94 @@
+/* ipad */
+@media( max-width:1023px) and ( min-width: 740px){
+    .Name, .mail {
+        width: 185px;
+        margin-left: 0px;
+        padding: 15px;}
+    .buy-tickets{
+        padding: 15px 16px;
+    }
+    .contact-inf{
+        line-height: 1.7;
+    }
+}
+
+/* ipad & mobile */
+@media ( max-width: 1024px){
+    .social{
+        font-size: 48px;
+        margin: 0 8px;
+    }
+    .copy-right{
+        padding: 12px 0;
+    }
+}
+
+/* Mobile */
+@media( max-width:739px) {
+
+    #header{
+        
+        overflow: hidden;
+    }
+
+    #header .menu-bar-btn{
+        display: block;
+    }
+
+    #header .nav-search{
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color:#fff;
+        padding: 5px 41px;}
+
+    #content .member-item{
+        width: 100%;
+       margin-bottom: 16px;
+    }
+    #content .band-text{
+        height: 308px;
+    }
+    #content .mem-img{
+        width: 60%;
+    }
+    .tour-list, .buy-tickets{
+        width: 100%;
+    }
+    .col.tour-list {
+        padding-top: 16px;
+    }
+    .tour-section{
+        height: 1915px;
+        background-color: black;
+    }
+    
+    .m-col-full, .submit-btn{
+        width: 100%;
+    }
+    .Name, .mail, .Message {
+        width: 365px;
+        margin-left: 8px;
+    }
+    .contact-inf {
+        line-height: 2;
+        margin: 8px 0;
+    }
+}
